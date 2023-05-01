@@ -22,10 +22,7 @@ const gridHeight = cvs.height / tilesize
 const bottom = cvs.height - tilesize
 const grid = []
 const fps = 30
-const jumpforce = 65
-const gravity = 8
-const terminal = 76
-const spawn = 160
+
 
 let editorMode = false
 let isDemoing = false
