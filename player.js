@@ -1,5 +1,10 @@
 import {cvs, ctx} from "./main.js"
 
+const jumpforce = 65
+const gravity = 8
+const terminal = 76
+const spawn = 160
+
 export class Player {
     constructor() {
         this.x = spawn
