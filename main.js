@@ -1,5 +1,6 @@
 import {levels, achievements} from "./data.js"
 import {Player} from "./player.js"
+import {jumpforce, gravity, terminal, spawn} from "./player.js"
 
 if (typeof CanvasRenderingContext2D.prototype.roundRect != "function") {
     CanvasRenderingContext2D.prototype.roundRect = function(x, y, w, h, r) {
