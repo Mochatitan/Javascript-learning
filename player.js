@@ -1,4 +1,4 @@
-
+import {cvs, ctx} from "./main.js"
 
 export class Player {
     constructor() {
@@ -135,4 +135,14 @@ export class Player {
             }
             this.render()
         }
+        render() {
+        const [x, y] = this.getEffectivePosition()
+        ctx.fillStyle = "rgb(0, 20, 140)"
+        ctx.strokeStyle = "black"
+        ctx.lineWidth = 4
+        ctx.fillRect(x, y, tilesize, tilesize)
+        ctx.strokeRect(x, y, tilesize, tilesize)
+    }
+
+
     }
