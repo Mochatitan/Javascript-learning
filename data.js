@@ -41,7 +41,7 @@ const achievements = [
         name: "Off to a great start",
         description: "Die for the first time",
         id: 0,
-        path: "images/skull.png",
+        path: "skull.png",
         image: new Image(),
         render: function() {
             ctx.drawImage(this.image, 360 + this.id * 180, 250, 150, 150)
