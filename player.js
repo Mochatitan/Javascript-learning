@@ -1,4 +1,4 @@
-import {cvs, ctx} from "./main.js"
+import {cvs, ctx, state, isDemoing, isUnlocked, unlockAchievement,bottom,setTimeout,gameOver} from "./main.js"
 
 const jumpforce = 65
 const gravity = 8
